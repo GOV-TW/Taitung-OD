@@ -96,7 +96,7 @@ def get_res(node_id):
                 f_name = re.findall("filename=(.+)", d)
                 fname = f_name[0].replace('"', '')
             except KeyError:
-                if len(k['RES_DESC']) < 30:
+                if len(k['RES_DESC']) < 30 and len(k['RES_DESC']) != 0:
                     fname = clean_name(k['RES_DESC'] + '.' + k['RES_FILETYPE'].lower())
                 else:
                     fname = clean_name(r_json['TITLE'] + '.' + k['RES_FILETYPE'].lower())
