@@ -88,21 +88,30 @@ def get_res(node_id):
 
     with open(data_path + '\\' + node_id[1], 'r', encoding='utf-8') as r_node:
         r_json = json.load(r_node)
-        for k in r_json['RESOURCE']:
-            response = requests.get(k['RES_URL'])
+        if len(r_json['RESOURCE']) == 1:
+            fname = clean_name(r_json['TITLE'] + '.' + r_json['RESOURCE'][0]['RES_FILETYPE'].lower())
+            response = requests.get(r_json['RESOURCE'][0]['RES_URL'])
             response.encoding = 'utf-8'
-            try:
-                d = response.headers['Content-Disposition']
-                f_name = re.findall("filename=(.+)", d)
-                fname = f_name[0].replace('"', '')
-            except KeyError:
-                if len(k['RES_DESC']) < 30 and len(k['RES_DESC']) != 0:
-                    fname = clean_name(k['RES_DESC'] + '.' + k['RES_FILETYPE'].lower())
-                else:
-                    fname = clean_name(r_json['TITLE'] + '.' + k['RES_FILETYPE'].lower())
             with open(oid_path + '\\' + fname, "wb") as handle:
                 for data in response.iter_content():
                     handle.write(data)
+
+        else:
+            for k in r_json['RESOURCE']:
+                response = requests.get(k['RES_URL'])
+                response.encoding = 'utf-8'
+                try:
+                    d = response.headers['Content-Disposition']
+                    f_name = re.findall("filename=(.+)", d)
+                    fname = f_name[0].replace('"', '')
+                except KeyError:
+                    if len(k['RES_DESC']) < 30 and len(k['RES_DESC']) != 0:
+                        fname = clean_name(k['RES_DESC'] + '.' + k['RES_FILETYPE'].lower())
+                    else:
+                        fname = clean_name(r_json['TITLE'] + '.' + k['RES_FILETYPE'].lower())
+                with open(oid_path + '\\' + fname, "wb") as handle:
+                    for data in response.iter_content():
+                        handle.write(data)
 
 
 #
@@ -111,7 +120,7 @@ def get_res(node_id):
 
 
 error_list = []
-data_path = 'DGTW'
+data_path = 'Datasets'
 
 node_id_list = get_list(data_path)
 if node_id_list == [] :

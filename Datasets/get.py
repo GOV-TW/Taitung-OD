@@ -11,11 +11,11 @@ import sys
 import os
 import pprint
 import re
-#import node
-#node_list = node.node_list
+import node
+node_list = node.node_list
 
 # get_node = 6179 72311 78625
-node_list = [72311]
+# node_list = [72311]
 
 # rename labels
 label_list = {
@@ -99,7 +99,8 @@ def get_json(get_node, c=True):
             app_count = 0
             node_app = node_file.find_all('div', id = re.compile('node-.*'))
             app_count = len(list(node_app))
-            print('app : ' + str(app_count))
+            if app_count:
+                print('app : ' + str(app_count))
             app_name = ['EXCERPT', 'CREATOR']
             if node_app:
                 for a in node_app:
