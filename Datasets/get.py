@@ -14,8 +14,8 @@ import re
 #import node
 #node_list = node.node_list
 
-# get_node = 6179
-node_list = [72312]
+# get_node = 6179 72311 78625
+node_list = [72311]
 
 # rename labels
 label_list = {
@@ -121,6 +121,7 @@ def get_json(get_node, c=True):
                     node_key_list.append(k.text)
             else:
                 node_key_list = []
+
             # get labels
             node_label_temp = node_file.find_all('div', 'field-label')
             res_count = 0
@@ -159,8 +160,7 @@ def get_json(get_node, c=True):
             node_content_temp = node_file.find_all('div', 'field-item')
             for i in node_content_temp:
                 i_v = i.text.replace('\xa0', '').replace('\n', '')
-                if i_v != '':
-                    node_content.append(i_v)
+                node_content.append(i_v)
 
             # split stats line
             stats = node_content[-1].split(' ')
@@ -178,6 +178,7 @@ def get_json(get_node, c=True):
             node_matrix['TITLE'] = json_title
             node_matrix['NODE'] = str(get_node)
             # 0-3
+
             for k in range(res_list[0], res_list[1]):
                 if 'SCHEMA' == node_label[k] and '、' in node_content[k]:
                     node_content[k] = node_content[k].split('、')
@@ -192,7 +193,7 @@ def get_json(get_node, c=True):
                             node_matrix[node_label[k]] = node_content[k]
                         else:
                             node_matrix[node_label[k]] = ''
-                            node_content.insert(k, '')
+                            # node_content.insert(k, '')
                 elif 'APP' in node_label[k]:
                     node_content[k] = node_app_list
                     node_matrix[node_label[k]] = node_content[k]
