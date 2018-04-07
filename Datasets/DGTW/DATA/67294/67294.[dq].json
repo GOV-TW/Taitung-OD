@@ -1,0 +1,109 @@
+{
+    "data": {
+        "result": {
+            "status": true,
+            "dataset": {
+                "linkable": 1,
+                "downloadable": 1,
+                "structure": 1,
+                "encoding_match": 1,
+                "desc_match": 1,
+                "csv": 1,
+                "agency": "臺東縣政府",
+                "pubdate": "2018/03/05 00:00"
+            },
+            "resources": {
+                "http://www.taitung.gov.tw/Upload/OpenDataRelFile/7195/636452208409302279.csv": {
+                    "resource": {
+                        "linkable": 1,
+                        "downloadable": 1,
+                        "structure": 1,
+                        "encoding_match": 1,
+                        "desc_match": 1,
+                        "csv": 1,
+                        "md5_file": "ce183d98750568d8635a627cd7b68d75",
+                        "md5_url": "7881c0033aa622f7dd60b959b0af8607",
+                        "url": "http://www.taitung.gov.tw/Upload/OpenDataRelFile/7195/636452208409302279.csv",
+                        "desc": "臺東社區活動中心",
+                        "fields": [
+                            "主管機關",
+                            "辦理單位",
+                            "成立日期",
+                            "連絡電話",
+                            "傳真",
+                            "地址",
+                            "X坐標",
+                            "Y坐標",
+                            "備註",
+                            "最後更新時間"
+                        ],
+                        "encoding": "BIG5",
+                        "file_type": "csv",
+                        "amount": 15,
+                        "api_fields": [
+                            {
+                                "name": "主管機關"
+                            },
+                            {
+                                "name": "辦理單位"
+                            },
+                            {
+                                "name": "成立日期"
+                            },
+                            {
+                                "name": "連絡電話"
+                            },
+                            {
+                                "name": "傳真"
+                            },
+                            {
+                                "name": "地址"
+                            },
+                            {
+                                "name": "X坐標"
+                            },
+                            {
+                                "name": "Y坐標"
+                            },
+                            {
+                                "name": "備註"
+                            },
+                            {
+                                "name": "最後更新時間"
+                            }
+                        ],
+                        "last_update_time": 1523125320,
+                        "check_time": 1523125320,
+                        "ref_key": "",
+                        "messages": []
+                    },
+                    "files": [
+                        {
+                            "filename": "DTQC_7ojIGG_s2.csv",
+                            "file_type": "CSV",
+                            "structure": 1,
+                            "csv": 1,
+                            "desc_match": 1,
+                            "encoding": "BIG5",
+                            "fields": [
+                                "主管機關",
+                                "辦理單位",
+                                "成立日期",
+                                "連絡電話",
+                                "傳真",
+                                "地址",
+                                "X坐標",
+                                "Y坐標",
+                                "備註",
+                                "最後更新時間"
+                            ],
+                            "amount": 15,
+                            "message": ""
+                        }
+                    ]
+                }
+            },
+            "no_qc": []
+        }
+    }
+}

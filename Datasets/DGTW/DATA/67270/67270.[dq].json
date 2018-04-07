@@ -1,0 +1,174 @@
+{
+    "data": {
+        "result": {
+            "status": true,
+            "dataset": {
+                "linkable": 1,
+                "downloadable": 1,
+                "structure": 1,
+                "encoding_match": 1,
+                "desc_match": 1,
+                "csv": 1,
+                "agency": "臺東縣政府",
+                "pubdate": "2018/03/05 00:00"
+            },
+            "resources": {
+                "http://www.taitung.gov.tw/Upload/OpenDataRelFile/7279/636485951638091405.csv": {
+                    "resource": {
+                        "linkable": 1,
+                        "downloadable": 1,
+                        "structure": 1,
+                        "encoding_match": 1,
+                        "desc_match": 1,
+                        "csv": 1,
+                        "md5_file": "9ec69479c195f9f667551d0af34a5fd6",
+                        "md5_url": "36dd529a309f56a69d97aa0528871694",
+                        "url": "http://www.taitung.gov.tw/Upload/OpenDataRelFile/7279/636485951638091405.csv",
+                        "desc": "106年度臺東縣福利服務行動躍升計畫OpenData資料收集",
+                        "fields": [
+                            "性質",
+                            "主管機關",
+                            "辦理單位",
+                            "成立日期",
+                            "立案文號",
+                            "負責人",
+                            "連絡電話",
+                            "傳真",
+                            "電子郵件",
+                            "地址",
+                            "核定收容人數",
+                            "收容對象_安養",
+                            "收容對象_養護",
+                            "收容對象_長照",
+                            "收容對象_日照",
+                            "收容對象_失智",
+                            "收容對象_遊民",
+                            "收容對象_其他",
+                            "相關網站",
+                            "X坐標",
+                            "Y坐標",
+                            "備註",
+                            "最後更新時間"
+                        ],
+                        "encoding": "UTF-8",
+                        "file_type": "csv",
+                        "amount": 15,
+                        "api_fields": [
+                            {
+                                "name": "性質"
+                            },
+                            {
+                                "name": "主管機關"
+                            },
+                            {
+                                "name": "辦理單位"
+                            },
+                            {
+                                "name": "成立日期"
+                            },
+                            {
+                                "name": "立案文號"
+                            },
+                            {
+                                "name": "負責人"
+                            },
+                            {
+                                "name": "連絡電話"
+                            },
+                            {
+                                "name": "傳真"
+                            },
+                            {
+                                "name": "電子郵件"
+                            },
+                            {
+                                "name": "地址"
+                            },
+                            {
+                                "name": "核定收容人數"
+                            },
+                            {
+                                "name": "收容對象_安養"
+                            },
+                            {
+                                "name": "收容對象_養護"
+                            },
+                            {
+                                "name": "收容對象_長照"
+                            },
+                            {
+                                "name": "收容對象_日照"
+                            },
+                            {
+                                "name": "收容對象_失智"
+                            },
+                            {
+                                "name": "收容對象_遊民"
+                            },
+                            {
+                                "name": "收容對象_其他"
+                            },
+                            {
+                                "name": "相關網站"
+                            },
+                            {
+                                "name": "X坐標"
+                            },
+                            {
+                                "name": "Y坐標"
+                            },
+                            {
+                                "name": "備註"
+                            },
+                            {
+                                "name": "最後更新時間"
+                            }
+                        ],
+                        "last_update_time": 1523125287,
+                        "check_time": 1523125287,
+                        "ref_key": "",
+                        "messages": []
+                    },
+                    "files": [
+                        {
+                            "filename": "DTQC_HHrqgF_s2.csv",
+                            "file_type": "CSV",
+                            "structure": 1,
+                            "csv": 1,
+                            "desc_match": 1,
+                            "encoding": "UTF-8",
+                            "fields": [
+                                "性質",
+                                "主管機關",
+                                "辦理單位",
+                                "成立日期",
+                                "立案文號",
+                                "負責人",
+                                "連絡電話",
+                                "傳真",
+                                "電子郵件",
+                                "地址",
+                                "核定收容人數",
+                                "收容對象_安養",
+                                "收容對象_養護",
+                                "收容對象_長照",
+                                "收容對象_日照",
+                                "收容對象_失智",
+                                "收容對象_遊民",
+                                "收容對象_其他",
+                                "相關網站",
+                                "X坐標",
+                                "Y坐標",
+                                "備註",
+                                "最後更新時間"
+                            ],
+                            "amount": 15,
+                            "message": ""
+                        }
+                    ]
+                }
+            },
+            "no_qc": []
+        }
+    }
+}

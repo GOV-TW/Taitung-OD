@@ -1,0 +1,45 @@
+{
+    "TITLE": "臺東縣最近5年地價稅稅源統計表",
+    "NODE": "46490",
+    "DESC": "公共資訊: 係指各種財政統計報表、政策新聞、資訊服務、法律等相關資料集",
+    "SCHEMA": [
+        "一般用地",
+        "自用住宅用地",
+        "勞工宿舍用地",
+        "事業直接使用土地",
+        "公共設施保留地",
+        "空地"
+    ],
+    "AGENCY": "臺東縣稅務局",
+    "AGENCY_CONTACT": "許小姐 (089231600#303)",
+    "UPDATE_FREQ": "每年",
+    "LICENCE": "政府資料開放授權條款-第1版",
+    "CHARGE": "免費",
+    "DATE_PUBLISH": "2017/06/19",
+    "DATA_TYPE": "原始資料",
+    "DATE_UPDATE_META": "2017/06/19 14:25",
+    "KEYWORDS": "",
+    "CATEGORY": "政府統計",
+    "SERVICE_TYPE": "公共資訊",
+    "NOTES": "授權說明網址: http://data.gov.tw/license",
+    "Stats": "瀏覽次數: 107 下載次數: 15 意見數: 0 ",
+    "VIEWS": "107",
+    "DOWNLOAD": "15",
+    "COMMENTS": "0",
+    "RESOURCE": [
+        {
+            "SCHEMA": "一般用地、自用住宅用地、勞工宿舍用地、事業直接使用土地、公共設施保留地、空地",
+            "RES_FILETYPE": "CSV",
+            "RES_ENCODE": "UTF-8",
+            "REC_COUNT": "9",
+            "RES_URL": "http://www.tttb.gov.tw/UploadFileDefPage/files/台東縣最近5年地價稅稅源統計表(1).csv",
+            "RES_DESC": "臺東縣最近5年地價稅稅源統計表",
+            "RES_DATE_UPDATE_META": "2017/11/14 20:51",
+            "CSV": "https://quality.data.gov.tw/dq_download_csv.php?nid=46490&md5_url=a1af3c22d337f8ffdd05870cf0530f0b",
+            "XLSX": "https://quality.data.gov.tw/dq_download_xlsx.php?nid=46490&md5_url=a1af3c22d337f8ffdd05870cf0530f0b",
+            "ODS": "https://quality.data.gov.tw/dq_download_ods.php?nid=46490&md5_url=a1af3c22d337f8ffdd05870cf0530f0b",
+            "XML": "https://quality.data.gov.tw/dq_download_xml.php?nid=46490&md5_url=a1af3c22d337f8ffdd05870cf0530f0b",
+            "JSON": "https://quality.data.gov.tw/dq_download_json.php?nid=46490&md5_url=a1af3c22d337f8ffdd05870cf0530f0b"
+        }
+    ]
+}

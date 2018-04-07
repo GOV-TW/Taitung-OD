@@ -1,0 +1,124 @@
+{
+    "data": {
+        "result": {
+            "status": true,
+            "dataset": {
+                "linkable": 1,
+                "downloadable": 1,
+                "structure": 1,
+                "encoding_match": 1,
+                "desc_match": 1,
+                "csv": 1,
+                "agency": "臺東縣政府",
+                "pubdate": "2018/03/05 00:00"
+            },
+            "resources": {
+                "http://www.taitung.gov.tw/Upload/OpenDataRelFile/7289/636485953864564217.csv": {
+                    "resource": {
+                        "linkable": 1,
+                        "downloadable": 1,
+                        "structure": 1,
+                        "encoding_match": 1,
+                        "desc_match": 1,
+                        "csv": 1,
+                        "md5_file": "91ebc7f0a1b4073d26e3134cea5742cc",
+                        "md5_url": "123bdd9a9487ab16ef53f619e4bf3811",
+                        "url": "http://www.taitung.gov.tw/Upload/OpenDataRelFile/7289/636485953864564217.csv",
+                        "desc": "臺東避難收容所位置及收容人數",
+                        "fields": [
+                            "主管機關",
+                            "收容所編號",
+                            "收容所名稱",
+                            "收容所鄉鎮市區",
+                            "收容所村里",
+                            "地址",
+                            "管理人",
+                            "連絡電話",
+                            "收容人數",
+                            "X坐標",
+                            "Y坐標",
+                            "備註",
+                            "最後更新時間"
+                        ],
+                        "encoding": "UTF-8",
+                        "file_type": "csv",
+                        "amount": 168,
+                        "api_fields": [
+                            {
+                                "name": "主管機關"
+                            },
+                            {
+                                "name": "收容所編號"
+                            },
+                            {
+                                "name": "收容所名稱"
+                            },
+                            {
+                                "name": "收容所鄉鎮市區"
+                            },
+                            {
+                                "name": "收容所村里"
+                            },
+                            {
+                                "name": "地址"
+                            },
+                            {
+                                "name": "管理人"
+                            },
+                            {
+                                "name": "連絡電話"
+                            },
+                            {
+                                "name": "收容人數"
+                            },
+                            {
+                                "name": "X坐標"
+                            },
+                            {
+                                "name": "Y坐標"
+                            },
+                            {
+                                "name": "備註"
+                            },
+                            {
+                                "name": "最後更新時間"
+                            }
+                        ],
+                        "last_update_time": 1523125318,
+                        "check_time": 1523125318,
+                        "ref_key": "",
+                        "messages": []
+                    },
+                    "files": [
+                        {
+                            "filename": "DTQC_edXmoF_s2.csv",
+                            "file_type": "CSV",
+                            "structure": 1,
+                            "csv": 1,
+                            "desc_match": 1,
+                            "encoding": "UTF-8",
+                            "fields": [
+                                "主管機關",
+                                "收容所編號",
+                                "收容所名稱",
+                                "收容所鄉鎮市區",
+                                "收容所村里",
+                                "地址",
+                                "管理人",
+                                "連絡電話",
+                                "收容人數",
+                                "X坐標",
+                                "Y坐標",
+                                "備註",
+                                "最後更新時間"
+                            ],
+                            "amount": 168,
+                            "message": ""
+                        }
+                    ]
+                }
+            },
+            "no_qc": []
+        }
+    }
+}

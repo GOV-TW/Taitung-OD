@@ -1,0 +1,114 @@
+{
+    "data": {
+        "result": {
+            "status": true,
+            "dataset": {
+                "linkable": 1,
+                "downloadable": 1,
+                "structure": 1,
+                "encoding_match": 1,
+                "desc_match": 1,
+                "csv": 1,
+                "agency": "臺東縣政府",
+                "pubdate": "2018/03/05 00:00"
+            },
+            "resources": {
+                "http://www.taitung.gov.tw/Upload/OpenDataRelFile/7199/636452267726973958.csv": {
+                    "resource": {
+                        "linkable": 1,
+                        "downloadable": 1,
+                        "structure": 1,
+                        "encoding_match": 1,
+                        "desc_match": 1,
+                        "csv": 1,
+                        "md5_file": "ce394aa923a6558eb717e385f0177e13",
+                        "md5_url": "bc8fd09a83d2def2ae3bcd0ba4fe1f25",
+                        "url": "http://www.taitung.gov.tw/Upload/OpenDataRelFile/7199/636452267726973958.csv",
+                        "desc": "臺東村里辦公室",
+                        "fields": [
+                            "主管機關",
+                            "行政區分",
+                            "里別名稱",
+                            "里長姓名",
+                            "服務電話",
+                            "傳真",
+                            "服務處地址",
+                            "X坐標",
+                            "Y坐標",
+                            "備註",
+                            "最後更新時間"
+                        ],
+                        "encoding": "BIG5",
+                        "file_type": "csv",
+                        "amount": 116,
+                        "api_fields": [
+                            {
+                                "name": "主管機關"
+                            },
+                            {
+                                "name": "行政區分"
+                            },
+                            {
+                                "name": "里別名稱"
+                            },
+                            {
+                                "name": "里長姓名"
+                            },
+                            {
+                                "name": "服務電話"
+                            },
+                            {
+                                "name": "傳真"
+                            },
+                            {
+                                "name": "服務處地址"
+                            },
+                            {
+                                "name": "X坐標"
+                            },
+                            {
+                                "name": "Y坐標"
+                            },
+                            {
+                                "name": "備註"
+                            },
+                            {
+                                "name": "最後更新時間"
+                            }
+                        ],
+                        "last_update_time": 1523125332,
+                        "check_time": 1523125332,
+                        "ref_key": "",
+                        "messages": []
+                    },
+                    "files": [
+                        {
+                            "filename": "DTQC_97bhNs_s2.csv",
+                            "file_type": "CSV",
+                            "structure": 1,
+                            "csv": 1,
+                            "desc_match": 1,
+                            "encoding": "BIG5",
+                            "fields": [
+                                "主管機關",
+                                "行政區分",
+                                "里別名稱",
+                                "里長姓名",
+                                "服務電話",
+                                "傳真",
+                                "服務處地址",
+                                "X坐標",
+                                "Y坐標",
+                                "備註",
+                                "最後更新時間"
+                            ],
+                            "amount": 116,
+                            "message": ""
+                        }
+                    ]
+                }
+            },
+            "no_qc": []
+        }
+    }
+}

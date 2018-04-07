@@ -1,0 +1,46 @@
+{
+    "data": {
+        "result": {
+            "status": true,
+            "dataset": {
+                "linkable": 1,
+                "downloadable": 0,
+                "structure": 2,
+                "encoding_match": 2,
+                "desc_match": 2,
+                "csv": 2,
+                "agency": "臺東縣政府",
+                "pubdate": "2016/01/19 00:00"
+            },
+            "resources": {
+                "http://www.taitung.gov.tw/News_Content.aspx?state=F5D336F102ACBC68&s=C9570DBBF62CC509&sms=6A6B57F5FE966020": {
+                    "resource": {
+                        "linkable": 1,
+                        "downloadable": 0,
+                        "structure": 2,
+                        "encoding_match": 2,
+                        "desc_match": 2,
+                        "csv": 2,
+                        "md5_file": "",
+                        "md5_url": "6afec5424ac336384dd54268a7218dbd",
+                        "url": "http://www.taitung.gov.tw/News_Content.aspx?state=F5D336F102ACBC68&s=C9570DBBF62CC509&sms=6A6B57F5FE966020",
+                        "desc": "臺東縣政府暨所轄鄉鎮市公所公共債務訊息",
+                        "fields": [],
+                        "encoding": "",
+                        "file_type": "",
+                        "amount": 0,
+                        "api_fields": [],
+                        "last_update_time": "",
+                        "check_time": "",
+                        "ref_key": "",
+                        "messages": [
+                            "[001] download_file(): cannot download directly."
+                        ]
+                    },
+                    "files": []
+                }
+            },
+            "no_qc": []
+        }
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "data": {
+        "result": {
+            "status": true,
+            "dataset": {
+                "linkable": 1,
+                "downloadable": 1,
+                "structure": 1,
+                "encoding_match": 1,
+                "desc_match": 1,
+                "csv": 1,
+                "agency": "臺東縣政府",
+                "pubdate": "2018/03/05 00:00"
+            },
+            "resources": {
+                "http://www.taitung.gov.tw/Upload/OpenDataRelFile/7220/636452277111806528.csv": {
+                    "resource": {
+                        "linkable": 1,
+                        "downloadable": 1,
+                        "structure": 1,
+                        "encoding_match": 1,
+                        "desc_match": 1,
+                        "csv": 1,
+                        "md5_file": "144be41985c42baacdf3789f5bbb45a1",
+                        "md5_url": "2c38f1b82f6f0f8d6d5416252ac378f5",
+                        "url": "http://www.taitung.gov.tw/Upload/OpenDataRelFile/7220/636452277111806528.csv",
+                        "desc": "臺東智慧機分布位置",
+                        "fields": [
+                            "主管機關",
+                            "辦理單位",
+                            "連絡電話",
+                            "地址",
+                            "相關網站",
+                            "X坐標",
+                            "Y坐標",
+                            "備註",
+                            "最後更新時間"
+                        ],
+                        "encoding": "BIG5",
+                        "file_type": "csv",
+                        "amount": 16,
+                        "api_fields": [
+                            {
+                                "name": "主管機關"
+                            },
+                            {
+                                "name": "辦理單位"
+                            },
+                            {
+                                "name": "連絡電話"
+                            },
+                            {
+                                "name": "地址"
+                            },
+                            {
+                                "name": "相關網站"
+                            },
+                            {
+                                "name": "X坐標"
+                            },
+                            {
+                                "name": "Y坐標"
+                            },
+                            {
+                                "name": "備註"
+                            },
+                            {
+                                "name": "最後更新時間"
+                            }
+                        ],
+                        "last_update_time": 1523125349,
+                        "check_time": 1523125349,
+                        "ref_key": "",
+                        "messages": []
+                    },
+                    "files": [
+                        {
+                            "filename": "DTQC_1TMNYO_s2.csv",
+                            "file_type": "CSV",
+                            "structure": 1,
+                            "csv": 1,
+                            "desc_match": 1,
+                            "encoding": "BIG5",
+                            "fields": [
+                                "主管機關",
+                                "辦理單位",
+                                "連絡電話",
+                                "地址",
+                                "相關網站",
+                                "X坐標",
+                                "Y坐標",
+                                "備註",
+                                "最後更新時間"
+                            ],
+                            "amount": 16,
+                            "message": ""
+                        }
+                    ]
+                }
+            },
+            "no_qc": []
+        }
+    }
+}

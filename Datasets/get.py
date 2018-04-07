@@ -10,13 +10,12 @@ import json
 import sys
 import os
 import pprint
-# import node
 import re
+#import node
+#node_list = node.node_list
 
 # get_node = 6179
-# node_list = [28387, 6179, 26870]
-
-node_list = [78542]
+node_list = [72312]
 
 # rename labels
 label_list = {
@@ -117,9 +116,11 @@ def get_json(get_node, c=True):
             # get the keywords list
             node_keywords = node_file.find_all('div', 'tag-wrapper')
             node_key_list = []
-            for k in node_keywords:
-                node_key_list.append(k.text)
-
+            if node_keywords:
+                for k in node_keywords:
+                    node_key_list.append(k.text)
+            else:
+                node_key_list = []
             # get labels
             node_label_temp = node_file.find_all('div', 'field-label')
             res_count = 0
@@ -176,7 +177,6 @@ def get_json(get_node, c=True):
 
             node_matrix['TITLE'] = json_title
             node_matrix['NODE'] = str(get_node)
-
             # 0-3
             for k in range(res_list[0], res_list[1]):
                 if 'SCHEMA' == node_label[k] and '、' in node_content[k]:
@@ -187,8 +187,12 @@ def get_json(get_node, c=True):
             for k in range(res_list[-1], len(node_label)):
                 if 'KEYWORD' in node_label[k]:
                     if 'KEYWORDS' == node_label[k]:
-                        node_content[k] = node_key_list
-                        node_matrix[node_label[k]] = node_content[k]
+                        if node_key_list:
+                            node_content[k] = node_key_list
+                            node_matrix[node_label[k]] = node_content[k]
+                        else:
+                            node_matrix[node_label[k]] = ''
+                            node_content.insert(k, '')
                 elif 'APP' in node_label[k]:
                     node_content[k] = node_app_list
                     node_matrix[node_label[k]] = node_content[k]
@@ -209,8 +213,9 @@ def get_json(get_node, c=True):
             json_file = str(get_node) + '. ' + node_matrix['AGENCY'] + '_' + json_title.strip() + '.json'
 
             # remove extra APP content
-            del node_matrix['CREATOR']
-            del node_matrix['EXCERPT']
+            if app_count:
+                del node_matrix['CREATOR']
+                del node_matrix['EXCERPT']
 
             # check resources status
             # node_res_download = get_dq(node_matrix['NODE'])

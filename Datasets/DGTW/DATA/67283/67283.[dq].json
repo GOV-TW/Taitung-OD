@@ -1,0 +1,129 @@
+{
+    "data": {
+        "result": {
+            "status": true,
+            "dataset": {
+                "linkable": 1,
+                "downloadable": 1,
+                "structure": 1,
+                "encoding_match": 1,
+                "desc_match": 1,
+                "csv": 1,
+                "agency": "臺東縣政府",
+                "pubdate": "2018/03/05 00:00"
+            },
+            "resources": {
+                "http://www.taitung.gov.tw/Upload/OpenDataRelFile/7288/636485953675253681.csv": {
+                    "resource": {
+                        "linkable": 1,
+                        "downloadable": 1,
+                        "structure": 1,
+                        "encoding_match": 1,
+                        "desc_match": 1,
+                        "csv": 1,
+                        "md5_file": "25aaa6ccaaf8fcc456d8f619a217305a",
+                        "md5_url": "82147c668d516327908d287239430a0e",
+                        "url": "http://www.taitung.gov.tw/Upload/OpenDataRelFile/7288/636485953675253681.csv",
+                        "desc": "臺東高風險家庭關懷輔導處遇服務提供單位",
+                        "fields": [
+                            "主管機關",
+                            "辦理單位",
+                            "成立日期",
+                            "立案文號",
+                            "負責人",
+                            "連絡電話",
+                            "傳真",
+                            "電子郵件",
+                            "地址",
+                            "相關網站",
+                            "X坐標",
+                            "Y坐標",
+                            "備註",
+                            "最後更新時間"
+                        ],
+                        "encoding": "UTF-8",
+                        "file_type": "csv",
+                        "amount": 1,
+                        "api_fields": [
+                            {
+                                "name": "主管機關"
+                            },
+                            {
+                                "name": "辦理單位"
+                            },
+                            {
+                                "name": "成立日期"
+                            },
+                            {
+                                "name": "立案文號"
+                            },
+                            {
+                                "name": "負責人"
+                            },
+                            {
+                                "name": "連絡電話"
+                            },
+                            {
+                                "name": "傳真"
+                            },
+                            {
+                                "name": "電子郵件"
+                            },
+                            {
+                                "name": "地址"
+                            },
+                            {
+                                "name": "相關網站"
+                            },
+                            {
+                                "name": "X坐標"
+                            },
+                            {
+                                "name": "Y坐標"
+                            },
+                            {
+                                "name": "備註"
+                            },
+                            {
+                                "name": "最後更新時間"
+                            }
+                        ],
+                        "last_update_time": 1523125305,
+                        "check_time": 1523125305,
+                        "ref_key": "",
+                        "messages": []
+                    },
+                    "files": [
+                        {
+                            "filename": "DTQC_rCn979_s2.csv",
+                            "file_type": "CSV",
+                            "structure": 1,
+                            "csv": 1,
+                            "desc_match": 1,
+                            "encoding": "UTF-8",
+                            "fields": [
+                                "主管機關",
+                                "辦理單位",
+                                "成立日期",
+                                "立案文號",
+                                "負責人",
+                                "連絡電話",
+                                "傳真",
+                                "電子郵件",
+                                "地址",
+                                "相關網站",
+                                "X坐標",
+                                "Y坐標",
+                                "備註",
+                                "最後更新時間"
+                            ],
+                            "amount": 1,
+                            "message": ""
+                        }
+                    ]
+                }
+            },
+            "no_qc": []
+        }
+    }
+}

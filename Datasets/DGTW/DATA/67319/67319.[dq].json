@@ -1,0 +1,119 @@
+{
+    "data": {
+        "result": {
+            "status": true,
+            "dataset": {
+                "linkable": 1,
+                "downloadable": 1,
+                "structure": 1,
+                "encoding_match": 1,
+                "desc_match": 1,
+                "csv": 1,
+                "agency": "臺東縣政府",
+                "pubdate": "2018/03/05 00:00"
+            },
+            "resources": {
+                "http://www.taitung.gov.tw/Upload/OpenDataRelFile/7214/636452275125225923.csv": {
+                    "resource": {
+                        "linkable": 1,
+                        "downloadable": 1,
+                        "structure": 1,
+                        "encoding_match": 1,
+                        "desc_match": 1,
+                        "csv": 1,
+                        "md5_file": "edbcd27fbdfd1cb471d6be0c382af33b",
+                        "md5_url": "cebe3bace3cbcc996bdb8e9eb388730c",
+                        "url": "http://www.taitung.gov.tw/Upload/OpenDataRelFile/7214/636452275125225923.csv",
+                        "desc": "臺東身心障礙福利機構團體或庇護工廠",
+                        "fields": [
+                            "性質",
+                            "主管機關",
+                            "辦理單位",
+                            "連絡電話",
+                            "傳真",
+                            "電子郵件",
+                            "地址",
+                            "相關網址",
+                            "X坐標",
+                            "Y坐標",
+                            "備註",
+                            "最後更新時間"
+                        ],
+                        "encoding": "BIG5",
+                        "file_type": "csv",
+                        "amount": 3,
+                        "api_fields": [
+                            {
+                                "name": "性質"
+                            },
+                            {
+                                "name": "主管機關"
+                            },
+                            {
+                                "name": "辦理單位"
+                            },
+                            {
+                                "name": "連絡電話"
+                            },
+                            {
+                                "name": "傳真"
+                            },
+                            {
+                                "name": "電子郵件"
+                            },
+                            {
+                                "name": "地址"
+                            },
+                            {
+                                "name": "相關網址"
+                            },
+                            {
+                                "name": "X坐標"
+                            },
+                            {
+                                "name": "Y坐標"
+                            },
+                            {
+                                "name": "備註"
+                            },
+                            {
+                                "name": "最後更新時間"
+                            }
+                        ],
+                        "last_update_time": 1523125347,
+                        "check_time": 1523125347,
+                        "ref_key": "",
+                        "messages": []
+                    },
+                    "files": [
+                        {
+                            "filename": "DTQC_4P6pmr_s2.csv",
+                            "file_type": "CSV",
+                            "structure": 1,
+                            "csv": 1,
+                            "desc_match": 1,
+                            "encoding": "BIG5",
+                            "fields": [
+                                "性質",
+                                "主管機關",
+                                "辦理單位",
+                                "連絡電話",
+                                "傳真",
+                                "電子郵件",
+                                "地址",
+                                "相關網址",
+                                "X坐標",
+                                "Y坐標",
+                                "備註",
+                                "最後更新時間"
+                            ],
+                            "amount": 3,
+                            "message": ""
+                        }
+                    ]
+                }
+            },
+            "no_qc": []
+        }
+    }
+}

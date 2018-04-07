@@ -1,0 +1,114 @@
+{
+    "data": {
+        "result": {
+            "status": true,
+            "dataset": {
+                "linkable": 1,
+                "downloadable": 1,
+                "structure": 1,
+                "encoding_match": 1,
+                "desc_match": 1,
+                "csv": 1,
+                "agency": "臺東縣政府",
+                "pubdate": "2018/03/05 00:00"
+            },
+            "resources": {
+                "http://www.taitung.gov.tw/Upload/OpenDataRelFile/7191/636452206932979064.csv": {
+                    "resource": {
+                        "linkable": 1,
+                        "downloadable": 1,
+                        "structure": 1,
+                        "encoding_match": 1,
+                        "desc_match": 1,
+                        "csv": 1,
+                        "md5_file": "09ec7acfea4a015cc1e12d323d49b49c",
+                        "md5_url": "fdc482ecb7b24601b5dad048b8f9e80d",
+                        "url": "http://www.taitung.gov.tw/Upload/OpenDataRelFile/7191/636452206932979064.csv",
+                        "desc": "臺東身心障礙者復康巴士服務",
+                        "fields": [
+                            "主管機關",
+                            "承辦單位",
+                            "連絡電話",
+                            "傳真",
+                            "電子郵件",
+                            "地址",
+                            "相關網站",
+                            "X坐標",
+                            "Y坐標",
+                            "備註",
+                            "最後更新時間"
+                        ],
+                        "encoding": "BIG5",
+                        "file_type": "csv",
+                        "amount": 1,
+                        "api_fields": [
+                            {
+                                "name": "主管機關"
+                            },
+                            {
+                                "name": "承辦單位"
+                            },
+                            {
+                                "name": "連絡電話"
+                            },
+                            {
+                                "name": "傳真"
+                            },
+                            {
+                                "name": "電子郵件"
+                            },
+                            {
+                                "name": "地址"
+                            },
+                            {
+                                "name": "相關網站"
+                            },
+                            {
+                                "name": "X坐標"
+                            },
+                            {
+                                "name": "Y坐標"
+                            },
+                            {
+                                "name": "備註"
+                            },
+                            {
+                                "name": "最後更新時間"
+                            }
+                        ],
+                        "last_update_time": 1523125319,
+                        "check_time": 1523125319,
+                        "ref_key": "",
+                        "messages": []
+                    },
+                    "files": [
+                        {
+                            "filename": "DTQC_9uriCm_s2.csv",
+                            "file_type": "CSV",
+                            "structure": 1,
+                            "csv": 1,
+                            "desc_match": 1,
+                            "encoding": "BIG5",
+                            "fields": [
+                                "主管機關",
+                                "承辦單位",
+                                "連絡電話",
+                                "傳真",
+                                "電子郵件",
+                                "地址",
+                                "相關網站",
+                                "X坐標",
+                                "Y坐標",
+                                "備註",
+                                "最後更新時間"
+                            ],
+                            "amount": 1,
+                            "message": ""
+                        }
+                    ]
+                }
+            },
+            "no_qc": []
+        }
+    }
+}

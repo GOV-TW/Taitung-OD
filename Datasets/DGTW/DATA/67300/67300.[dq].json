@@ -1,0 +1,104 @@
+{
+    "data": {
+        "result": {
+            "status": true,
+            "dataset": {
+                "linkable": 1,
+                "downloadable": 1,
+                "structure": 1,
+                "encoding_match": 1,
+                "desc_match": 1,
+                "csv": 1,
+                "agency": "臺東縣政府",
+                "pubdate": "2018/03/05 00:00"
+            },
+            "resources": {
+                "http://www.taitung.gov.tw/Upload/OpenDataRelFile/7204/636452269404977947.csv": {
+                    "resource": {
+                        "linkable": 1,
+                        "downloadable": 1,
+                        "structure": 1,
+                        "encoding_match": 1,
+                        "desc_match": 1,
+                        "csv": 1,
+                        "md5_file": "27d5aed51d4fea66c65338ca56e60c0f",
+                        "md5_url": "48af5e4ce1a1fe805608de9998c1dc8d",
+                        "url": "http://www.taitung.gov.tw/Upload/OpenDataRelFile/7204/636452269404977947.csv",
+                        "desc": "臺東AED設置場所",
+                        "fields": [
+                            "主管機關",
+                            "辦理單位",
+                            "設置地點",
+                            "裝設位置(地址)",
+                            "擺放地點備註",
+                            "設備來源",
+                            "X坐標",
+                            "Y坐標",
+                            "最後更新時間"
+                        ],
+                        "encoding": "BIG5",
+                        "file_type": "csv",
+                        "amount": 82,
+                        "api_fields": [
+                            {
+                                "name": "主管機關"
+                            },
+                            {
+                                "name": "辦理單位"
+                            },
+                            {
+                                "name": "設置地點"
+                            },
+                            {
+                                "name": "裝設位置(地址)"
+                            },
+                            {
+                                "name": "擺放地點備註"
+                            },
+                            {
+                                "name": "設備來源"
+                            },
+                            {
+                                "name": "X坐標"
+                            },
+                            {
+                                "name": "Y坐標"
+                            },
+                            {
+                                "name": "最後更新時間"
+                            }
+                        ],
+                        "last_update_time": 1523125333,
+                        "check_time": 1523125333,
+                        "ref_key": "",
+                        "messages": []
+                    },
+                    "files": [
+                        {
+                            "filename": "DTQC_wMJSpV_s2.csv",
+                            "file_type": "CSV",
+                            "structure": 1,
+                            "csv": 1,
+                            "desc_match": 1,
+                            "encoding": "BIG5",
+                            "fields": [
+                                "主管機關",
+                                "辦理單位",
+                                "設置地點",
+                                "裝設位置(地址)",
+                                "擺放地點備註",
+                                "設備來源",
+                                "X坐標",
+                                "Y坐標",
+                                "最後更新時間"
+                            ],
+                            "amount": 82,
+                            "message": ""
+                        }
+                    ]
+                }
+            },
+            "no_qc": []
+        }
+    }
+}

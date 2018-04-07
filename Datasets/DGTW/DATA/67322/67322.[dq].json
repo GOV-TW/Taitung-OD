@@ -1,0 +1,119 @@
+{
+    "data": {
+        "result": {
+            "status": true,
+            "dataset": {
+                "linkable": 1,
+                "downloadable": 1,
+                "structure": 1,
+                "encoding_match": 1,
+                "desc_match": 1,
+                "csv": 1,
+                "agency": "臺東縣政府",
+                "pubdate": "2018/03/05 00:00"
+            },
+            "resources": {
+                "http://www.taitung.gov.tw/Upload/OpenDataRelFile/7218/636452276564715394.csv": {
+                    "resource": {
+                        "linkable": 1,
+                        "downloadable": 1,
+                        "structure": 1,
+                        "encoding_match": 1,
+                        "desc_match": 1,
+                        "csv": 1,
+                        "md5_file": "bb7b0a9519839d65c6350a5753c9e07e",
+                        "md5_url": "a77cd35450681dbe36c3610aec8be645",
+                        "url": "http://www.taitung.gov.tw/Upload/OpenDataRelFile/7218/636452276564715394.csv",
+                        "desc": "臺東無線網路佈建位址",
+                        "fields": [
+                            "主管機關",
+                            "辦理單位",
+                            "位址名稱",
+                            "連絡電話",
+                            "地址",
+                            "熱區分類",
+                            "無障礙設施",
+                            "相關網站",
+                            "X坐標",
+                            "Y坐標",
+                            "備註",
+                            "最後更新時間"
+                        ],
+                        "encoding": "BIG5",
+                        "file_type": "csv",
+                        "amount": 122,
+                        "api_fields": [
+                            {
+                                "name": "主管機關"
+                            },
+                            {
+                                "name": "辦理單位"
+                            },
+                            {
+                                "name": "位址名稱"
+                            },
+                            {
+                                "name": "連絡電話"
+                            },
+                            {
+                                "name": "地址"
+                            },
+                            {
+                                "name": "熱區分類"
+                            },
+                            {
+                                "name": "無障礙設施"
+                            },
+                            {
+                                "name": "相關網站"
+                            },
+                            {
+                                "name": "X坐標"
+                            },
+                            {
+                                "name": "Y坐標"
+                            },
+                            {
+                                "name": "備註"
+                            },
+                            {
+                                "name": "最後更新時間"
+                            }
+                        ],
+                        "last_update_time": 1523125348,
+                        "check_time": 1523125349,
+                        "ref_key": "",
+                        "messages": []
+                    },
+                    "files": [
+                        {
+                            "filename": "DTQC_h5cP1j_s2.csv",
+                            "file_type": "CSV",
+                            "structure": 1,
+                            "csv": 1,
+                            "desc_match": 1,
+                            "encoding": "BIG5",
+                            "fields": [
+                                "主管機關",
+                                "辦理單位",
+                                "位址名稱",
+                                "連絡電話",
+                                "地址",
+                                "熱區分類",
+                                "無障礙設施",
+                                "相關網站",
+                                "X坐標",
+                                "Y坐標",
+                                "備註",
+                                "最後更新時間"
+                            ],
+                            "amount": 122,
+                            "message": ""
+                        }
+                    ]
+                }
+            },
+            "no_qc": []
+        }
+    }
+}

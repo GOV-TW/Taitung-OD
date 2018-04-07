@@ -1,0 +1,139 @@
+{
+    "data": {
+        "result": {
+            "status": true,
+            "dataset": {
+                "linkable": 1,
+                "downloadable": 1,
+                "structure": 1,
+                "encoding_match": 1,
+                "desc_match": 1,
+                "csv": 1,
+                "agency": "臺東縣政府",
+                "pubdate": "2018/03/05 00:00"
+            },
+            "resources": {
+                "http://www.taitung.gov.tw/Upload/OpenDataRelFile/7272/636485949779511207.csv": {
+                    "resource": {
+                        "linkable": 1,
+                        "downloadable": 1,
+                        "structure": 1,
+                        "encoding_match": 1,
+                        "desc_match": 1,
+                        "csv": 1,
+                        "md5_file": "9af532f0b2fefa60e445e182e0b0149e",
+                        "md5_url": "81a48934d3d452bf556cba98a39be00f",
+                        "url": "http://www.taitung.gov.tw/Upload/OpenDataRelFile/7272/636485949779511207.csv",
+                        "desc": "臺東兒童及少年福利服務中心",
+                        "fields": [
+                            "性質",
+                            "主管機關",
+                            "辦理單位",
+                            "成立日期",
+                            "立案文號",
+                            "負責人",
+                            "連絡電話",
+                            "傳真",
+                            "電子郵件",
+                            "地址",
+                            "核准收托或安置人數",
+                            "相關網址",
+                            "X坐標",
+                            "Y坐標",
+                            "備註",
+                            "最後更新時間"
+                        ],
+                        "encoding": "UTF-8",
+                        "file_type": "csv",
+                        "amount": 4,
+                        "api_fields": [
+                            {
+                                "name": "性質"
+                            },
+                            {
+                                "name": "主管機關"
+                            },
+                            {
+                                "name": "辦理單位"
+                            },
+                            {
+                                "name": "成立日期"
+                            },
+                            {
+                                "name": "立案文號"
+                            },
+                            {
+                                "name": "負責人"
+                            },
+                            {
+                                "name": "連絡電話"
+                            },
+                            {
+                                "name": "傳真"
+                            },
+                            {
+                                "name": "電子郵件"
+                            },
+                            {
+                                "name": "地址"
+                            },
+                            {
+                                "name": "核准收托或安置人數"
+                            },
+                            {
+                                "name": "相關網址"
+                            },
+                            {
+                                "name": "X坐標"
+                            },
+                            {
+                                "name": "Y坐標"
+                            },
+                            {
+                                "name": "備註"
+                            },
+                            {
+                                "name": "最後更新時間"
+                            }
+                        ],
+                        "last_update_time": 1523125276,
+                        "check_time": 1523125276,
+                        "ref_key": "",
+                        "messages": []
+                    },
+                    "files": [
+                        {
+                            "filename": "DTQC_5HHi6j_s2.csv",
+                            "file_type": "CSV",
+                            "structure": 1,
+                            "csv": 1,
+                            "desc_match": 1,
+                            "encoding": "UTF-8",
+                            "fields": [
+                                "性質",
+                                "主管機關",
+                                "辦理單位",
+                                "成立日期",
+                                "立案文號",
+                                "負責人",
+                                "連絡電話",
+                                "傳真",
+                                "電子郵件",
+                                "地址",
+                                "核准收托或安置人數",
+                                "相關網址",
+                                "X坐標",
+                                "Y坐標",
+                                "備註",
+                                "最後更新時間"
+                            ],
+                            "amount": 4,
+                            "message": ""
+                        }
+                    ]
+                }
+            },
+            "no_qc": []
+        }
+    }
+}

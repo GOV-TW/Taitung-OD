@@ -1,0 +1,46 @@
+{
+    "data": {
+        "result": {
+            "status": true,
+            "dataset": {
+                "linkable": 0,
+                "downloadable": 2,
+                "structure": 2,
+                "encoding_match": 2,
+                "desc_match": 2,
+                "csv": 2,
+                "agency": "臺東縣稅務局",
+                "pubdate": "2017/08/30 00:00"
+            },
+            "resources": {
+                "http://www.tttb.gov.tw/UploadFileDefPage/files/101~105%E5%B9%B4%E8%87%BA%E6%9D%B1%E7%B8%A3%E5%A5%91%E7%A8%85%E7%B6%9C%E5%90%88%E7%B5%B1%E8%A8%88%E8%A1%A8(1).csv": {
+                    "resource": {
+                        "linkable": 0,
+                        "downloadable": 2,
+                        "structure": 2,
+                        "encoding_match": 2,
+                        "desc_match": 2,
+                        "csv": 2,
+                        "md5_file": "",
+                        "md5_url": "76db227c83b1dd5453d98434c9b48504",
+                        "url": "http://www.tttb.gov.tw/UploadFileDefPage/files/101~105%E5%B9%B4%E8%87%BA%E6%9D%B1%E7%B8%A3%E5%A5%91%E7%A8%85%E7%B6%9C%E5%90%88%E7%B5%B1%E8%A8%88%E8%A1%A8(1).csv",
+                        "desc": "臺東縣最近5年契稅綜合統計表",
+                        "fields": [],
+                        "encoding": "",
+                        "file_type": "",
+                        "amount": 0,
+                        "api_fields": [],
+                        "last_update_time": "",
+                        "check_time": "",
+                        "ref_key": "",
+                        "messages": [
+                            "[015] 資料資源無法下載。cURL error 7: Failed to connect to 2001:4420:f402::198: 無法接觸網路"
+                        ]
+                    },
+                    "files": []
+                }
+            },
+            "no_qc": []
+        }
+    }
+}

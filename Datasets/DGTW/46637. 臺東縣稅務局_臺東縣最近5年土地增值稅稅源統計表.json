@@ -1,0 +1,33 @@
+{
+    "TITLE": "臺東縣最近5年土地增值稅稅源統計表",
+    "NODE": "46637",
+    "DESC": "臺東縣最近5年土地增值稅稅源統計表",
+    "SCHEMA": "自用住宅用地一般用地免稅用地",
+    "AGENCY": "臺東縣稅務局",
+    "AGENCY_CONTACT": "許小姐 (089231600#305)",
+    "UPDATE_FREQ": "每年",
+    "LICENCE": "政府資料開放授權條款-第1版",
+    "CHARGE": "免費",
+    "DATE_PUBLISH": "2017/06/21",
+    "DATA_TYPE": "原始資料",
+    "DATE_UPDATE_META": "2017/06/21 08:42",
+    "KEYWORDS": "",
+    "CATEGORY": "政府統計",
+    "SERVICE_TYPE": "公共資訊",
+    "NOTES": "授權說明網址: http://data.gov.tw/license",
+    "Stats": "瀏覽次數: 115 下載次數: 11 意見數: 0 ",
+    "VIEWS": "115",
+    "DOWNLOAD": "11",
+    "COMMENTS": "0",
+    "RESOURCE": [
+        {
+            "SCHEMA": "自用住宅用地一般用地免稅用地",
+            "RES_FILETYPE": "CSV",
+            "RES_ENCODE": "UTF-8",
+            "REC_COUNT": "9",
+            "RES_URL": "http://www.tttb.gov.tw//UploadFileDefPage/files/台東縣最近5年土地增值稅稅源統計表.csv",
+            "RES_DESC": "自用住宅用地\r一般用地\r免稅用地\r",
+            "RES_DATE_UPDATE_META": "2017/11/14 20:51"
+        }
+    ]
+}

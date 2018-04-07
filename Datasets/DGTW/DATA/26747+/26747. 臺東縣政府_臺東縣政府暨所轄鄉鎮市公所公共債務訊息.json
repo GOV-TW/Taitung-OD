@@ -1,0 +1,36 @@
+{
+    "TITLE": "臺東縣政府暨所轄鄉鎮市公所公共債務訊息",
+    "NODE": "26747",
+    "DESC": "臺東縣政府暨所轄鄉鎮市公所公共債務訊息",
+    "SCHEMA": "臺東縣政府暨所轄鄉鎮市公所公共債務訊息",
+    "AGENCY": "臺東縣政府",
+    "AGENCY_CONTACT": "顏小姐 (089322082)",
+    "UPDATE_FREQ": "不定期",
+    "LICENCE": "政府資料開放授權條款-第1版",
+    "CHARGE": "免費",
+    "DATE_PUBLISH": "2016/01/19",
+    "DATA_TYPE": "原始資料",
+    "DATE_UPDATE_META": "2016/01/19 11:37",
+    "KEYWORDS": [
+        "臺東縣政府暨所轄鄉鎮市公所公共債務訊息"
+    ],
+    "CATEGORY": "其他",
+    "SERVICE_TYPE": "公共資訊",
+    "SOURCE_URL": "http://www.taitung.gov.tw/News_Content.aspx?state=F5D336F102ACBC68&s=C9570DBBF62...",
+    "NOTES": "授權說明網址: http://data.gov.tw/license",
+    "Stats": "瀏覽次數: 1159 下載次數: 101 意見數: 1 ",
+    "VIEWS": "1159",
+    "DOWNLOAD": "101",
+    "COMMENTS": "1",
+    "RESOURCE": [
+        {
+            "SCHEMA": "臺東縣政府暨所轄鄉鎮市公所公共債務訊息",
+            "RES_FILETYPE": "CSV",
+            "RES_ENCODE": "UTF-8",
+            "REC_COUNT": "9",
+            "RES_URL": "http://www.taitung.gov.tw/News_Content.aspx?state=F5D336F102ACBC68&s=C9570DBBF62CC509&sms=6A6B57F5FE966020",
+            "RES_DESC": "臺東縣政府暨所轄鄉鎮市公所公共債務訊息",
+            "RES_DATE_UPDATE_META": "1970/01/01 08:00"
+        }
+    ]
+}

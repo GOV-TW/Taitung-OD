@@ -1,0 +1,50 @@
+{
+    "TITLE": "臺東就業服務據點",
+    "NODE": "67299",
+    "DESC": "106年度臺東縣福利服務行動躍升計畫OpenData資料收集",
+    "SCHEMA": [
+        "主管機關",
+        "據點名稱",
+        "連絡電話",
+        "傳真",
+        "服務時間",
+        "地址",
+        "相關網站",
+        "X坐標",
+        "Y坐標",
+        "備註",
+        "最後更新時間"
+    ],
+    "AGENCY": "臺東縣政府",
+    "AGENCY_CONTACT": "侯小姐 (089-342492)",
+    "UPDATE_FREQ": "不定期",
+    "LICENCE": "政府資料開放授權條款-第1版",
+    "CHARGE": "免費",
+    "DATE_PUBLISH": "2018/03/05",
+    "DATA_TYPE": "原始資料",
+    "DATE_UPDATE_META": "2018/03/05 15:52",
+    "KEYWORDS": "",
+    "CATEGORY": "其他",
+    "SERVICE_TYPE": "公共資訊",
+    "SOURCE_URL": "http://www.taitung.gov.tw/opendata/OD_OpenData_DealData.aspx?s=0E945017C35457AC&...",
+    "Stats": "瀏覽次數: 9 下載次數: 0 意見數: 0 ",
+    "VIEWS": "9",
+    "DOWNLOAD": "0",
+    "COMMENTS": "0",
+    "RESOURCE": [
+        {
+            "SCHEMA": "主管機關、據點名稱、連絡電話、傳真、服務時間、地址、相關網站、X坐標、Y坐標、備註、最後更新時間",
+            "RES_FILETYPE": "CSV",
+            "RES_ENCODE": "BIG5",
+            "REC_COUNT": "10",
+            "RES_URL": "http://www.taitung.gov.tw/Upload/OpenDataRelFile/7202/636452268729572465.csv",
+            "RES_DESC": "臺東就業服務據點",
+            "RES_DATE_UPDATE_META": "2018/03/05 14:20",
+            "CSV": "https://quality.data.gov.tw/dq_download_csv.php?nid=67299&md5_url=2690ca70cc16ef7546917d00b4f9e3a4",
+            "XLSX": "https://quality.data.gov.tw/dq_download_xlsx.php?nid=67299&md5_url=2690ca70cc16ef7546917d00b4f9e3a4",
+            "ODS": "https://quality.data.gov.tw/dq_download_ods.php?nid=67299&md5_url=2690ca70cc16ef7546917d00b4f9e3a4",
+            "XML": "https://quality.data.gov.tw/dq_download_xml.php?nid=67299&md5_url=2690ca70cc16ef7546917d00b4f9e3a4",
+            "JSON": "https://quality.data.gov.tw/dq_download_json.php?nid=67299&md5_url=2690ca70cc16ef7546917d00b4f9e3a4"
+        }
+    ]
+}

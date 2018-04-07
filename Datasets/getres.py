@@ -111,7 +111,7 @@ def get_res(node_id):
 
 
 error_list = []
-data_path = 'RAW'
+data_path = 'DGTW'
 
 node_id_list = get_list(data_path)
 if node_id_list == [] :

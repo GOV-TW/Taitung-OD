@@ -1,0 +1,50 @@
+{
+    "TITLE": "臺東縣最近5年房屋稅綜合統計表 ",
+    "NODE": "52720",
+    "DESC": "年度別; 合計戶數; 應稅戶數; 免稅戶數; 應稅面積; 免稅面積; 應稅現值; 免稅現值; 合計稅額; 本稅稅額",
+    "SCHEMA": [
+        "年度別",
+        "戶數合計",
+        "應稅總戶數",
+        "免稅總戶數",
+        "應稅總面積",
+        "免稅總面積",
+        "應稅總現值",
+        "免稅總現值",
+        "稅額合計",
+        "本稅",
+        "教育捐",
+        ""
+    ],
+    "AGENCY": "臺東縣稅務局",
+    "AGENCY_CONTACT": "朱先生 (089-231600#283)",
+    "UPDATE_FREQ": "每年",
+    "LICENCE": "政府資料開放授權條款-第1版",
+    "CHARGE": "免費",
+    "DATE_PUBLISH": "2017/08/30",
+    "DATA_TYPE": "原始資料",
+    "DATE_UPDATE_META": "2017/08/30 09:29",
+    "KEYWORDS": "",
+    "CATEGORY": "政府統計",
+    "SERVICE_TYPE": "公共資訊",
+    "Stats": "瀏覽次數: 81 下載次數: 12 意見數: 0 ",
+    "VIEWS": "81",
+    "DOWNLOAD": "12",
+    "COMMENTS": "0",
+    "RESOURCE": [
+        {
+            "SCHEMA": "年度別、戶數合計、應稅總戶數、免稅總戶數、應稅總面積、免稅總面積、應稅總現值、免稅總現值、稅額合計、本稅、教育捐、",
+            "RES_FILETYPE": "CSV",
+            "RES_ENCODE": "UTF-8",
+            "REC_COUNT": "0",
+            "RES_URL": "http://www.tttb.gov.tw//UploadFileDefPage/files/101~105年臺東縣房屋稅綜合統計表.csv",
+            "RES_DESC": "臺東縣最近5年房屋稅綜合統計表",
+            "RES_DATE_UPDATE_META": "2017/11/14 20:52",
+            "CSV": "https://quality.data.gov.tw/dq_download_csv.php?nid=52720&md5_url=702a37a6ac51aebff0854b313abebea5",
+            "XLSX": "https://quality.data.gov.tw/dq_download_xlsx.php?nid=52720&md5_url=702a37a6ac51aebff0854b313abebea5",
+            "ODS": "https://quality.data.gov.tw/dq_download_ods.php?nid=52720&md5_url=702a37a6ac51aebff0854b313abebea5",
+            "XML": "https://quality.data.gov.tw/dq_download_xml.php?nid=52720&md5_url=702a37a6ac51aebff0854b313abebea5",
+            "JSON": "https://quality.data.gov.tw/dq_download_json.php?nid=52720&md5_url=702a37a6ac51aebff0854b313abebea5"
+        }
+    ]
+}
